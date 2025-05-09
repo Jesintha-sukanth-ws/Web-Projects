@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./assests/css/portfolio.css" type="text/css">
+  <link rel="icon" href="./assests/images/favicon.png" type="image/png">
+
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Computer Science Graduate | Fresher | Front-end Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#project">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p style="text-align:center; padding: 0 5px;">A dedicated Computer Science graduate, eager to start a career in Techno-functional roles and contribute to projects.Currently improving my skills in Full-Stack Development in Java</p>
+  </section>
+
+  <section id="project">
+    <h2>Project</h2>
+    <div class="project">
+      <h3>Personal Portfolio Website</h3>
+      <p>A simple responsive website to showcase my profile and projects. Built using HTML, CSS, and a bit of JavaScript.</p>
+    </div>
+  </section>
+
+  <div class="project">
+    <h3  style="text-align: center;">HTML & CSS Skill Showcase</h3>
+    <div style="background-color: white; border-radius: 10px; max-width: 300px; margin: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden;">
+      <img src="./assests/images/collegewebsite.png" alt="Skill Image" style="width: 100%;">
+      <h4 style="margin: 15px 20px 5px;">College Website</h4>
+      <p style="color: #555; margin: 0px 10px 0px;text-align: justify;">Designed a fully responsive static college website using only HTML & CSS.Created different sections using semantic tags and Flexbox also used media queries.
+Used media queries.
+</p>
+      <div style="font-size: 16px; font-weight: bold; color: #007bff; margin: 0px 20px 0px">Tools: HTML, CSS</div>
+      <a href="./collegewebsite.html" style="display: inline-block; margin: 15px 20px 20px; padding: 10px 20px; background-color: #333; color: white; border-radius: 5px; text-decoration: none;">View Webpage</a>
+    </div>
+  </div>
+  <br>
+
+  <div class="project">
+    
+    <div style="background-color: white; border-radius: 10px; max-width: 300px; margin: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden;">
+      <img src="./assests/images/smoothiesc.png" alt="Skill Image" style="width: 100%;">
+      <h4 style="margin: 15px 20px 5px;">Smoothie Shop site</h4>
+      <p style="color: #555; margin: 0px 10px 0px;text-align: justify;">Designed a clean and responsive card layout using only HTML & CSS. Demonstrates flexbox, and media queries.</p>
+      <div style="font-size: 16px; font-weight: bold; color: #007bff; margin: 0px 20px 0px">Tools: HTML, CSS</div>
+      <a href="./Smoothies(card).html" style="display: inline-block; margin: 15px 20px 20px; padding: 10px 20px; background-color: #333; color: white; border-radius: 5px; text-decoration: none;">View Webpage</a>
+    </div>
+  </div>
+</section>
+<br>
+
+  <div class="project">
+    
+    <div style="background-color: white; border-radius: 10px; max-width: 300px; margin: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden;">
+      <img src="./assests/images/Screenshot.png" alt="Skill Image" style="width: 100%;">
+      <h4 style="margin: 15px 20px 5px;">My Portfolio site</h4>
+      <p style="color: #555; margin: 0px 10px 0px;text-align: justify;">Built a personal portfolio website to showcase skills and mini-projects.
+Implemented responsive layout with Flexbox and media queries.
+Applied UI/UX principles for better design and user navigation.</p>
+      <div style="font-size: 16px; font-weight: bold; color: #007bff; margin: 0px 20px 0px">Tools: HTML, CSS,JavaScript</div>
+      <a href="./Portfolio.html" style="display: inline-block; margin: 15px 20px 20px; padding: 10px 20px; background-color: #333; color: white; border-radius: 5px; text-decoration: none;">View Webpage</a>
+    </div>
+  </div>
+<br>
+  <section id="contact">
+    <h2>Contact</h2>
+    <form onsubmit="showPopup(event)">
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Your Email" required><br>
+      <textarea placeholder="Your Message" rows="4" required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jesintha Sukanth. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showPopup(event) {
+      event.preventDefault(); 
+      alert("Your message has been sent! Thank you for contacting us.");}
+  </script>
+</body>
+</html>
